@@ -13,9 +13,7 @@ export function Profile() {
           </figure>
 
           <div>
-            <h1 className="font-semibold text-base leading-none">
-              Tayef Mahmud
-            </h1>
+            <h1 className="font-bold text-base leading-none">Tayef Mahmud</h1>
             <span className="text-xs leading-none">Full Stack Developer</span>
           </div>
         </div>
