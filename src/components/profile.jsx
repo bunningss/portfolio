@@ -1,13 +1,15 @@
 import Image from "next/image";
+import pr from "@/assets/profile.png";
 import { Section } from "./section";
+import { Facebook, Linkedin } from "lucide-react";
 
 export function Profile() {
   return (
     <Section>
       <div className="border border-input rounded-sm py-4 px-2 flex justify-between items-center">
         <div className="flex gap-2 items-center">
-          <figure className="relative h-10 w-10 rounded-full overflow-hidden bg-red-50">
-            <Image src="" alt="tayef mahmud" className="object-cover" fill />
+          <figure className="relative h-10 w-10 rounded-full overflow-hidden">
+            <Image src={pr} alt="tayef mahmud" className="object-cover" fill />
           </figure>
 
           <div>
@@ -18,7 +20,14 @@ export function Profile() {
           </div>
         </div>
         {/* Socials */}
-        <div>fb</div>
+        <div className="flex gap-2">
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <Facebook size={16} />
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <Linkedin size={16} />
+          </a>
+        </div>
       </div>
     </Section>
   );
