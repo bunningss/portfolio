@@ -19,8 +19,8 @@ export function ProjectCard({ project }) {
                 src={project?.image}
                 alt={project?.title}
                 fill
-                className="object-cover"
-                sizes="200px"
+                className="object-contain"
+                sizes="300px"
               />
             </figure>
           </CardContent>
