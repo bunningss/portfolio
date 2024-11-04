@@ -8,22 +8,29 @@ import {
   CardTitle,
 } from "./ui/card";
 
-export function ProjectCard() {
+export function ProjectCard({ project }) {
   return (
-    <Card>
-      <MouseAnimation>
-        <CardContent>
-          <figure className="relative h-[160px]">
-            <Image src="" alt="" fill className="object-cover" />
-          </figure>
-        </CardContent>
-        <CardHeader className="pt-0">
-          <CardTitle className="text-sm">nextjs starter kit</CardTitle>
-          <CardDescription className="text-xs line-clamp-2">
-            build you saas platform with this nextjs starter kit.
-          </CardDescription>
-        </CardHeader>
-      </MouseAnimation>
-    </Card>
+    <a href={project?.url} target="_blank" rel="noopener noreferrer">
+      <Card>
+        <MouseAnimation>
+          <CardContent>
+            <figure className="relative h-[140px]">
+              <Image
+                src={project?.image}
+                alt={project?.title}
+                fill
+                className="object-cover"
+              />
+            </figure>
+          </CardContent>
+          <CardHeader className="pt-0">
+            <CardTitle className="text-sm">{project?.title}</CardTitle>
+            <CardDescription className="text-xs line-clamp-2">
+              {project?.desc}
+            </CardDescription>
+          </CardHeader>
+        </MouseAnimation>
+      </Card>
+    </a>
   );
 }
