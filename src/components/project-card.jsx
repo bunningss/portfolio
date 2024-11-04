@@ -20,6 +20,7 @@ export function ProjectCard({ project }) {
                 alt={project?.title}
                 fill
                 className="object-cover"
+                sizes="200px"
               />
             </figure>
           </CardContent>
