@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
 export function MouseAnimation({ children }) {
@@ -17,7 +16,7 @@ export function MouseAnimation({ children }) {
   }
 
   return (
-    <motion.div
+    <div
       ref={ref}
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
@@ -33,6 +32,6 @@ export function MouseAnimation({ children }) {
         }}
       />
       {children}
-    </motion.div>
+    </div>
   );
 }
