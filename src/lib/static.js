@@ -2,6 +2,19 @@ import ilham from "@/assets/ilham.png";
 import clientPortal from "@/assets/clientPortal.png";
 import designjoy from "@/assets/designjoy.png";
 
+export const currentWorks = [
+  {
+    title: "Somobay Somiti App",
+    description: "Application to help maintain somobay somiti.",
+    link: "https://ngo-pink.vercel.app",
+  },
+  {
+    title: "Inventory Management App",
+    description: "easily maintain inventory and track sales.",
+    link: "https://zeris.xyz",
+  },
+];
+
 export const projects = [
   {
     title: "iLHAM ecommerce store",

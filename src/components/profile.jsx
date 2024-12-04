@@ -21,7 +21,7 @@ export function Profile() {
           <div>
             <h1 className="font-bold text-base leading-none">Tayef Mahmud</h1>
             <span className="text-xs leading-none font-semibold">
-              Full Stack Developer
+              React Developer
             </span>
           </div>
         </div>

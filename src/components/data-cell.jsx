@@ -1,15 +1,15 @@
-import Link from "next/link";
-
-export function DataCell({ date, title, description }) {
+export function DataCell({ date, data }) {
   return (
     <div className="text-sm flex items-center justify-between">
       <div>
-        <Link href="" className="hover:underline block w-fit">
-          <h4>goshenpay</h4>
-        </Link>
-        <span className="text-muted-foreground">
-          easy to use payments platform for churches.
-        </span>
+        <a
+          href={data?.link}
+          target="_blank"
+          className="hover:underline block w-fit"
+        >
+          <h4>{data?.title}</h4>
+        </a>
+        <span className="text-muted-foreground">{data?.description}</span>
       </div>
       {date && <span>12/10/2013</span>}
     </div>

@@ -12,12 +12,11 @@ export function ServiceCard() {
     <Card>
       <MouseAnimation>
         <CardHeader>
-          <CardTitle className="text-sm">hire me as a developer</CardTitle>
+          <CardTitle className="text-sm">not found!</CardTitle>
         </CardHeader>
         <CardContent className="pt-0">
           <CardDescription className="text-xs line-clamp-2">
-            my youtube channel has over 350k views and i&apos;m looking to
-            partner with brands to create content.
+            not found!
           </CardDescription>
         </CardContent>
       </MouseAnimation>
