@@ -1,6 +1,7 @@
 import "./globals.css";
 import { font } from "@/lib/fonts";
 import { Container } from "@/components/container";
+import { PreviewModal } from "@/components/modals/preview-modal";
 
 export const metadata = {
   title: "Tayef Mahmud",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <main>
           <Container>{children}</Container>
         </main>
+        <PreviewModal />
       </body>
     </html>
   );
