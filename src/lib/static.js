@@ -1,6 +1,8 @@
 import ilham from "@/assets/ilham.png";
 import clientPortal from "@/assets/clientPortal.png";
 import designjoy from "@/assets/designjoy.png";
+import somiti from "@/assets/somiti.png";
+import inventory from "@/assets/inventory.png";
 
 export const currentWorks = [
   {
@@ -23,6 +25,18 @@ export const projects = [
     url: "https://ilham.com.bd",
   },
   {
+    title: "Somiti App",
+    desc: "app to maintain somiti savings, loans, members and employess easily.",
+    image: somiti,
+    url: "https://ngo-pink.vercel.app",
+  },
+  {
+    title: "Inventory Management",
+    desc: "E-commerce, inventory management, POS.",
+    image: inventory,
+    url: "https://zeris.xyz",
+  },
+  {
     title: "designjoy",
     desc: "helped build the landing page of a web development agency based in switzerland.",
     image: designjoy,
@@ -30,7 +44,7 @@ export const projects = [
   },
   {
     title: "client portal",
-    desc: "built a portal  that will agencies maintain clients easily.",
+    desc: "a portal that will help agencies maintain clients easily.",
     image: clientPortal,
     url: "https://client.designjoy.ch",
   },
