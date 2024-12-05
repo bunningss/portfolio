@@ -12,11 +12,11 @@ export function ServiceCard() {
     <Card>
       <MouseAnimation>
         <CardHeader>
-          <CardTitle className="text-sm">not found!</CardTitle>
+          <CardTitle className="text-sm">Unavailable</CardTitle>
         </CardHeader>
         <CardContent className="pt-0">
           <CardDescription className="text-xs line-clamp-2">
-            not found!
+            Unavailable
           </CardDescription>
         </CardContent>
       </MouseAnimation>
